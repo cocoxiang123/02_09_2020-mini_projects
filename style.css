@@ -19,12 +19,25 @@ h1 {
 }
 .projects {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 90vw;
+}
+.project-container {
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  width: 100%;
+}
+.projectType {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
 }
 .card {
+  display: block;
   position: relative;
   height: 200px;
   width: 250px;
